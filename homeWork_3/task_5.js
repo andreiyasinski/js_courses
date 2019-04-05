@@ -5,3 +5,13 @@ function getSumm(n) {
 	}
 	return result;
 }
+
+/* recursion */
+
+function getSumm(n) {
+	if (n !== 1) {
+			return n + getSumm(--n);
+	} else {
+			return n;
+	}    
+}
