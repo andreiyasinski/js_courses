@@ -8,7 +8,7 @@ function getSumm(n) {
 
 /* recursion */
 
-function getSumm(n) {
+function getSummRec(n) {
 	if (n !== 1) {
 			return n + getSumm(--n);
 	} else {
