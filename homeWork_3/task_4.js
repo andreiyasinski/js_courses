@@ -1,10 +1,14 @@
-function getDayDeclension(num) {  
+function getDayDeclension(num) {
+	var result;
+
 	if (num > 10 && num < 20) {
-		return num + ' дней';
+		result = num + ' дней';
 	} else if (num % 10 > 1 && num % 10 < 5) {
-		return num + ' дня';
+		result = num + ' дня';
 	} else if (num % 10 == 1) {
-		return num + ' день';
+		result = num + ' день';
+	} else {
+		result = num + ' дней';
 	}
-	return num + ' дней';
+	return result;
 }
