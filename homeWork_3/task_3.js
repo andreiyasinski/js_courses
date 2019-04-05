@@ -1,5 +1,5 @@
 function getSeason(month) {
-	var season;
+	var season = 'Введидите число от 1 до 12';
 	
 	if (month === 12 || month === 1 || month === 2 ) {
 		season = 'Зима';
@@ -9,7 +9,7 @@ function getSeason(month) {
 		season = 'Лето';
 	} else if (month >= 9 && month <= 11) {
 		season = 'Осень';
-	} else return 'Введидите число от 1 до 12';
+	}
 	
 	return season;
 }
