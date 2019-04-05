@@ -1,5 +1,4 @@
 function getMultiplicationTable(num) {
-  var result = '';
   for (let i = 1; i <= 10; i++) {
     console.log(num + ' * ' + i + ' = ' + num*i)
   }
