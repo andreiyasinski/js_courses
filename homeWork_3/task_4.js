@@ -1,7 +1,7 @@
 function getDayDeclension(num) {
 	var result;
 
-	if (num > 10 && num < 20) {
+	if (num % 100 > 10 && num % 100 < 20) {
 		result = num + ' дней';
 	} else if (num % 10 > 1 && num % 10 < 5) {
 		result = num + ' дня';
