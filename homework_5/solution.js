@@ -31,7 +31,6 @@ module.exports = {
         });
       
         result = arr.join(', ')
-      
         return result;
     },
     addressBook: function(command){
