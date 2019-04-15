@@ -5,20 +5,15 @@ var phoneBook = [];
 
 module.exports = {
     getWords: function(sentence){
-        return sentence.match(/#\S*/ig).join(' ').replace(/#/g, '').split(' ')
-        /*
         var result = [];
-        
         result = sentence.split(' ').filter(function(word) {
           return word[0] === '#';
         });
-      
         result = result.map(function(element) {
           return element.slice(1);
         });
       
         return result;
-        */
     },
     normalizeWords: function(words){
         var arr = [];
