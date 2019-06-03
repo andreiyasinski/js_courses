@@ -80,7 +80,14 @@ function clearContainer() {
 }
 
 function selectFigure(e) {
-  figureType = e.target.id;
+  if(e.target.id === "figure1" || e.target.id === "figure2" || e.target.id === "figure3" || e.target.id === "figure4") {
+    figureType = e.target.id;
+    figure1.innerHTML = "";
+    figure2.innerHTML = "";
+    figure3.innerHTML = "";
+    figure4.innerHTML = "";
+    e.target.innerHTML = "&#10004;";
+  }
 }
 
 function generateСolor() {
