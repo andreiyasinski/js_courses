@@ -29,6 +29,7 @@ contentArea.appendChild(figures);
 
 var figure1 = document.createElement('div');
 figure1.id = "figure1";
+figure1.innerHTML = "&#10004;";
 figure1.className = "figure1"
 figures.appendChild(figure1);
 
