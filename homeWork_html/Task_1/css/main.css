@@ -1,0 +1,47 @@
+.elem {
+  width: 50px;
+  height: 50px;
+  background: red;
+  margin: 5px;
+}
+
+.input {
+  width: 600px;
+}
+
+#figures {
+  margin: 20px 0 20px 0;
+}
+
+.figure1, .figure2, .figure3, .figure4 {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#figure1, #figure2, #figure3, #figure4 {
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.figure1 {
+  
+  margin-right: 20px;
+}
+
+.figure2 {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.figure3 {
+  border-radius: 50% 0 50% 0;
+  margin-right: 20px;
+}
+
+.figure4 {
+  border-radius: 0 50% 0 50%;
+  margin-right: 20px;
+}
